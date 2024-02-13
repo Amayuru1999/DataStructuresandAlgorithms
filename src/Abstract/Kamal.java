@@ -1,8 +1,11 @@
 package Abstract;
 
-public class Kamal {
+public class Kamal extends Nimal {
     void drink(){
         System.out.println("Drinking");
+    }
+    void run(){
+        System.out.println("Running");
     }
 
     public static void main(String[] args) {
